@@ -56,7 +56,7 @@ However, if the appropriate command line argument is not given, your program sho
 
 You should create a new instance of FileMaker and use the readChar method to give you back a character from the file. You'll need to watch for characters like space and new line to keep track of words and lines. You may find `Character.isLetter()` helpful. Lastly, your main method should output the DocumentIndex to the appropriate file once it is completed. There is a static method within FileMaker to allow you to easily write a file.
 
-###IndexEntry Class
+### IndexEntry Class
 
 Class fields: A string that is the word and a List to hold the line numbers where that word appears.
 
@@ -70,7 +70,7 @@ Methods:
 
 - String toString() that creates a string representation of the IndexEntry.
 
-###DocumentIndex class
+### DocumentIndex class
 
 Make 2 constructors: one that creates a list with the default capacity, and another that creates a list with a given capacity. (Hint - just use ArrayLists constructors)
 
